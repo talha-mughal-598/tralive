@@ -89,6 +89,21 @@
   text-align: center;
 }
 
+.vertically-centered-left {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  color: silver;
+}
+
+.vertically-centered-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: silver;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -125,6 +140,7 @@
 .event-cards-margin {
   margin-left: 5%;
   margin-right: 5%;
+  position: relative;
 }
 
 .event-head {
@@ -193,6 +209,22 @@
   }
   .logo-size {
     width: 80%;
+  }
+  .fa-7x {
+    font-size: 4em;
+  }
+  .fa-2x {
+    font-size: 1em;
+  }
+  .vertically-centered-left {
+    visibility: hidden;
+  }
+
+  .vertically-centered-right {
+    visibility: hidden;
+  }
+  .hide-me {
+    visibility: hidden;
   }
 }
 
